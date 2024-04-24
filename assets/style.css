@@ -317,11 +317,13 @@ body{
 }
 
 .popular-package-section{
-
+display: flex;
 }
 
 .popular-package-section .package-listing{
-
+    display: flex;
 }
 
-.popular-package-section .package-listing .package-container
+.popular-package-section .package-listing .package-container{
+    
+}
