@@ -316,14 +316,20 @@ body{
     gap: 20px;
 }
 
-.popular-package-section{
-display: flex;
+.popular-package-section{   
+    height: 100%;
+    width: 100%;
+    background: #000;
 }
 
 .popular-package-section .package-listing{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .popular-package-section .package-listing .package-container{
-    
+    display: flex;
+    justify-content: center;
 }
