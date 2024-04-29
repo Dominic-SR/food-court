@@ -393,3 +393,57 @@ body{
     font-size: 24px;
     font-weight: 800;
 }
+
+/* STATISTICS SECTION END */
+
+/* UPDATE SECTION STYLE START */
+
+.main-container .update-section{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.main-container .update-section .update-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    gap: 20px;
+}
+
+.main-container .update-section .update-content h1{
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.main-container .update-section .update-content p{
+    width: 70%;
+    font-size: 18px;
+}
+
+.main-container .update-section .input-update input{
+    height: 40px;
+    width: 250px;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 20px;
+}
+
+.main-container .update-section .input-update .update-btn{
+    height: 40px;
+    width: 100px;
+    background: yellow;
+    border-radius: 0px 20px 20px 0px;
+    /* border: unset; */
+    position: relative;
+    right: 10px;
+}
+/* UPDATE SECTION STYLE END */
