@@ -447,3 +447,13 @@ body{
     right: 10px;
 }
 /* UPDATE SECTION STYLE END */
+
+/* FOOTER SECTION STYLE START */
+
+.main-container .footer-section{
+    height: 100%;
+    width: 100%;
+    background: #000;
+}
+
+/* FOOTER SECTION STYLE END */
