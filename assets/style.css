@@ -451,9 +451,51 @@ body{
 /* FOOTER SECTION STYLE START */
 
 .main-container .footer-section{
-    height: 100%;
+    height: 50%;
     width: 100%;
     background: #000;
 }
 
+.main-container .footer-section h2{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.main-container .footer-section .footer-content{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    margin: 0px 50px;
+}
+
+.main-container .footer-section .footer-content li{
+    line-height: 2.2;
+    font-size: 18px;
+}
+
+.main-container .footer-section .main-content p{
+    width: 80%;
+    line-height:1.4;
+    font-size: 18px;
+}
+
+.main-container .footer-section .footer-content .main-content{
+    width: 40%;
+    display: flex;  
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main-container .footer-section .footer-content .about{
+    width: 20%;
+}
+
+.main-container .footer-section .footer-content .services{
+    width: 20%;
+}
+
+.main-container .footer-section .footer-content .other{
+    width: 20%;
+}
 /* FOOTER SECTION STYLE END */
