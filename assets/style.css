@@ -409,7 +409,7 @@ body{
     gap: 50px;
 }
 
-.main-container .update-section .update-content{
+.main-container .update-section .update-content{ 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -417,6 +417,10 @@ body{
     width: 60%;
     text-align: center;
     gap: 20px;
+}
+
+.main-container .update-section .input-update{
+    width: 50%;
 }
 
 .main-container .update-section .update-content h1{
@@ -432,7 +436,7 @@ body{
 
 .main-container .update-section .input-update input{
     height: 40px;
-    width: 250px;
+    width: 80%;
     border-radius: 20px 0px 0px 20px;
     padding-left: 20px;
 }
@@ -454,6 +458,8 @@ body{
     height: 50%;
     width: 100%;
     background: #000;
+    display: flex;
+    align-items: center;
 }
 
 .main-container .footer-section h2{
@@ -498,3 +504,36 @@ body{
     width: 20%;
 }
 /* FOOTER SECTION STYLE END */
+
+
+/* MEDIA QUERY START*/
+
+@media only screen and (min-width:280px) and (max-width:319px){
+    /* / smartphones, iPhone, portrait 480x320 phones /  */
+
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+/* / smartphones, iPhone, portrait 480x320 phones /  */
+
+}
+
+@media only screen and (min-width:481px) and (max-width:640px){
+/* / portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. /  */
+
+}
+
+@media only screen and (min-width:1281px) and (max-width:1399px){
+/* / DESKTOP VIEW / */
+}
+
+@media (max-width: 1510px) and (min-width: 1200px){
+
+}
+
+@media (max-width: 1710px) and (min-width: 1510px){
+
+}
+
+
+/* MEDIA QUERY END */
