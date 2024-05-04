@@ -516,6 +516,23 @@ body{
 @media only screen and (min-width:320px) and (max-width:480px){
 /* / smartphones, iPhone, portrait 480x320 phones /  */
 
+.main-container .banner-section .banner-contents {
+    width: 80%;
+}
+
+.main-container .banner-section .banner-contents .banner-heading {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.main-container .banner-section .header img {
+    margin-left: 20px;
+}
+
+.main-container .banner-section .header .nav {
+    display: none;
+}
+
 }
 
 @media only screen and (min-width:481px) and (max-width:640px){
