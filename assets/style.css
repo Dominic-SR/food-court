@@ -197,6 +197,17 @@ body{
     gap: 10px;
 }
 
+.main-container .chef-section .chef-listing .chef-container .chef-details .star-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.main-container .chef-section .chef-listing .chef-container .chef-details .star-container img{
+    height: 20px;
+    width: 20px;
+}
+
 /* CHEF SECTION END */
 
 /* BURGER SECTION START */
