@@ -154,7 +154,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 50px 0px;
+    /* margin: 50px 0px; */
 }
 
 .main-container .chef-contents h2{
@@ -183,7 +183,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin: 100px 0px;
+    margin: 20px 0px 40px;
 }
 
 .main-container .chef-section .chef-listing .chef-container img{
@@ -301,7 +301,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: auto;
     background: #000;
 }
 
@@ -315,6 +315,7 @@ body{
 }
 
 .main-container .statistics-section .statistics-container .statistics-contents{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -343,7 +344,16 @@ body{
     margin: 75px 0px;
 }
 
-.main-container .statistics-section .statistics-container .statistics-count .statistics-circle{
+.main-container .statistics-section .statistics-container .statistics-count .statistics-circle-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0px 40px;
+}
+
+.main-container .statistics-section .statistics-container .statistics-count .statistics-circle-container .statistics-circle{
     border: 2px solid #fff;
     height: 250px;
     width: 250px;
@@ -369,6 +379,7 @@ body{
 
 
 .popular-package-section .package-listing{
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -379,7 +390,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
     text-align: center;
     margin: 40px;
     padding: 40px;
